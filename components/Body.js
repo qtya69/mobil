@@ -1,14 +1,15 @@
 import { StyleSheet, Text, View } from 'react-native'
 import React from 'react'
 
-const -- = () => {
+const Body = () => {
+    const [employees, setEmployees] = useState([]);
   return (
     <View>
-      <Text>--</Text>
+      <Text>Body</Text>
     </View>
   )
 }
 
-export default --
+export default Body
 
 const styles = StyleSheet.create({})
