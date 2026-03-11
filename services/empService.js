@@ -1,4 +1,3 @@
-import {fetch} from 'react-native'
 
 const host='http://localhost:8000/api/';
 const endpoint='employees';
